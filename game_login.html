@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz- Login</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="heading">MATH <span>QUIZ</span></h1>
+        <div class="login">
+            <div id="login">
+                <input type="text" id="Player1" placeholder="Player 1" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Player 1'">
+                <br>
+                <input type="text" id="Player2" placeholder="Player 2" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Player 2'">
+                <br>
+                <button id="log" onclick="getNames()">Login</button>
+
+            </div>
+        </div>
+    </center>
+
+    <script src="game_login.js"></script>
+</body>
+
+</html>
